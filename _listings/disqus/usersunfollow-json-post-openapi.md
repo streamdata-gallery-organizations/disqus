@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Disqus
-x-complete: 1
+x-complete: 0
 info:
-  title: Disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
+  title: Disqus Users Unfollow
+  description: Users Unfollow
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -3095,124 +3095,17 @@ paths:
       tags:
       - Comments
       - Users
-  /users/updateProfile.json:
-    post:
-      summary: Users UpdateProfile
-      description: Users UpdateProfile
-      operationId: users-updateprofile
-      x-api-path-slug: usersupdateprofile-json-post
-      parameters:
-      - in: query
-        name: about
-        type: string
-      - in: query
-        name: location
-        description: Defaults to                          Maximum length of 255
-        type: string
-      - in: query
-        name: name
-        description: Defaults to                          Minimum length of 2 Maximum
-          length of 30
-        type: string
-      - in: query
-        name: url
-        description: Defaults to                          URL (defined by RFC 3986)
-          Maximum length of 200
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - Users
-  /whitelists/list.json:
-    get:
-      summary: Whitelists List
-      description: Whitelists List
-      operationId: whitelists-list
-      x-api-path-slug: whitelistslist-json-get
-      parameters:
-      - in: query
-        name: cursor
-        description: Defaults to null
-        type: string
-      - in: query
-        name: forum
-        description: Looks up a forum by ID (aka short name)
-        type: string
-      - in: query
-        name: limit
-        description: Defaults to 25                         Maximum value of 100
-        type: string
-      - in: query
-        name: order
-        description: 'Defaults to asc                         Choices: asc, desc'
-        type: string
-      - in: query
-        name: query
-        description: Defaults to null
-        type: string
-      - in: query
-        name: related
-        description: Defaults to []                         You may specify relations
-          to include with your response
-        type: string
-      - in: query
-        name: since
-        description: Defaults to null                         Unix timestamp (or ISO
-          datetime standard)
-        type: string
-      - in: query
-        name: since_id
-        description: Defaults to null
-        type: string
-      - in: query
-        name: type
-        description: 'Defaults to null                         Choices: email, user'
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - White Lists
-  /whitelists/remove.json:
-    post:
-      summary: Whitelists Remove
-      description: Whitelists Remove
-      operationId: whitelists-remove
-      x-api-path-slug: whitelistsremove-json-post
-      parameters:
-      - in: query
-        name: email
-        description: Defaults to []                         Email address (defined
-          by RFC 5322)
-        type: string
-      - in: query
-        name: forum
-        description: Looks up a forum by ID (aka short name)
-        type: string
-      - in: query
-        name: user
-        description: Defaults to []                         Looks up a user by ID
-          You may look up a user by username using the &#39;username&#39; query type
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Comments
-      - White Lists
-  /users/interestingUsers.json:
-    get:
-      summary: Interesting Users
-      description: Interesting Users
-      operationId: interestingUsers
-      x-api-path-slug: usersinterestingusers-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - Interesting
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

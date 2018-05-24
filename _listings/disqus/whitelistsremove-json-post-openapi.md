@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Disqus
-x-complete: 1
+x-complete: 0
 info:
-  title: Disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
+  title: Disqus Whitelists Remove
+  description: Whitelists Remove
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -3203,16 +3203,17 @@ paths:
       tags:
       - Comments
       - White Lists
-  /users/interestingUsers.json:
-    get:
-      summary: Interesting Users
-      description: Interesting Users
-      operationId: interestingUsers
-      x-api-path-slug: usersinterestingusers-json-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Users
-      - Interesting
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

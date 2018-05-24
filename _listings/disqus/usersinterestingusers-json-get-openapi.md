@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Disqus
-x-complete: 1
+x-complete: 0
 info:
-  title: Disqus
-  description: welcome-to-the-disqus-web-api--the-api-enables-developers-to-communicate-with-disqus-data-from-within-their-own-applications-
+  title: Disqus Interesting Users
+  description: Interesting Users
   termsOfService: https://docs.disqus.com/kb/terms-and-policies/
   version: 1.0.0
 host: disqus.com
@@ -3215,4 +3215,17 @@ paths:
       tags:
       - Users
       - Interesting
+x-streamrank:
+  polling_total_time_average: "0.22"
+  polling_size_download_average: "5741.75"
+  streaming_total_time_average: "0.12"
+  streaming_size_download_average: "2875.24"
+  change_yes: "11679"
+  change_no: "215"
+  time_percentage: "47"
+  size_percentage: "50"
+  change_percentage: "98"
+  last_run: "2018-05-12"
+  days_run: "8"
+  minute_run: "0"
 ---
