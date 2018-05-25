@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus
 x-kinRank: "8"
 x-alexaRank: "850"
 tags: Disqus
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/disqus/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
