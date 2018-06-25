@@ -6,10 +6,10 @@ description: Disqus offers the best add-on tools for websites to increase engage
   native advertising.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg
 x-kinRank: "8"
-x-alexaRank: "850"
+x-alexaRank: "973"
 tags: Disqus
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/disqus/master/_listings/disqus/apis.md
 specificationVersion: "0.14"
 apis:
@@ -1020,6 +1020,8 @@ x-common:
   url: https://disqus.com/api/docs/
 - type: x-github
   url: https://github.com/disqus
+- type: x-linkedin
+  url: https://www.linkedin.com/company/disqus
 - type: x-partners
   url: https://disqus.com/partners/
 - type: x-privacy
