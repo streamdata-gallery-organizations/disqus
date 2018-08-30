@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Disqus",
+	"description": "This is a repository of disqus APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/disqus.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://disqus.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Disqus",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/disqus/master/_listings/disqus/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Disqus",
+	"include": [
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/disqus/master/_listings/disqus/apis.yaml"
+		}
+	]
+}
